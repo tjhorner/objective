@@ -4,7 +4,7 @@ $(document).ready(function(){
 
   $('#homework').html(localStorage.getItem('homework') || '- Things<br>- Other things');
   $('#classwork').html(localStorage.getItem('classwork') || '- Things<br>- Other things');
-  $('#objective').html(localStorage.getItem('objective') || 'SWBAT die');
+  $('#objective').html(localStorage.getItem('objective') || 'SWBAT do things better');
 
   $('body').on('keydown', function(){
     localStorage.setItem('homework', $('#homework').html());
