@@ -1,0 +1,46 @@
+body{
+  -webkit-animation: 20s colorpulse infinite;
+}
+
+*{
+  font-family: "Lato";
+}
+
+.card{
+  width: 700px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+h2, h3{
+  font-weight: 200;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+h2{
+  text-align: center;
+}
+
+*{
+  outline: none;
+}
+
+@-webkit-keyframes colorpulse{
+  0% {
+    background: #0bc0c2
+  }
+
+  25% {
+    background: #f863f3
+  }
+
+  50% {
+    background: #fc5843
+  }
+
+  100% {
+    background: #0bc0c2
+  }
+}
